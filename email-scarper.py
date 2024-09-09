@@ -5,6 +5,15 @@ import urllib.parse
 from collections import deque
 import re
 
+# Banner
+print('''
+#############################################
+#                                           #
+#        Email-Scarper By M033n             #
+#                                           #
+#############################################
+''')
+
 user_url = input('[+] Enter Target URL To Scan: ')
 urls = deque([user_url])
 
